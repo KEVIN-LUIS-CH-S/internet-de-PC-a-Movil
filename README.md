@@ -22,42 +22,43 @@ Sigue estos pasos para configurar la conexión:
 
 ### 2️⃣ Conecta tu teléfono a la PC  
 - Usa un cable USB.  
-- Selecciona el modo **Transferencia de archivos** (no "Solo carga").  
+- Selecciona el modo **Transferencia de archivos** (no "Solo carga").
 
-   ![Modo de transferencia](img/transferencia_de_archivos.jpg)  
+   <img src="img/transferencia_de_archivos.jpg" width="500">
 
 ### 3️⃣ Habilita la **Depuración USB** en tu dispositivo  
 - Si no sabes cómo activarla, busca en Internet:  
   _"Cómo habilitar la depuración USB en [marca del dispositivo]"_ (ej. Xiaomi, Samsung, etc.).  
 - Cuando aparezca un mensaje de advertencia, pulsa **ACEPTAR**.  
 
-   ![Depuración USB](img/depuracion_usb.jpg)  
+  <img src="img/depuracion_usb.jpg" width="500">
 
 ### 4️⃣ Activa la opción **Instalar vía USB**  
-- En algunos dispositivos, será necesario iniciar sesión para activarla.  
-- Se requiere una conexión a Internet para completar este paso.  
+- En algunos dispositivos, será necesario iniciar sesión para activarla.
+- Es posible que se requiera una conexión a Internet para completar este paso.
 
-   ![Instalar vía USB](img/instalar_via_usb.jpg)  
+  <img src="img/instalar_via_usb.jpg" width="500">
 
 ### 5️⃣ Concede permisos para la **Depuración USB (ajustes de seguridad)**  
-- En dispositivos recientes, es necesario autorizar la instalación vía USB.  
-
-   ![Concesión de permisos](img/permitir_la_consecion_de_permisos.jpg)  
+- En dispositivos recientes, es necesario autorizar la instalación vía USB.
+- Es posible que se requiera una conexión a Internet para completar este paso.
+  
+  <img src="img/permitir_la_consecion_de_permisos.jpg" width="500">
 
 ### 6️⃣ Instalación automática de la app  
-- Acepta la instalación en tu teléfono cuando se te solicite.  
-
-   ![Instalación automática](img/instalar.jpg)  
+- Acepta la instalación en tu teléfono cuando se te solicite.
+- 
+  <img src="img/instalar.jpg" width="500">
 
 ### 7️⃣ Acepta la solicitud de conexión VPN  
 - Aparecerá un cuadro de diálogo en tu teléfono.  
-- Pulsa **Aceptar** para establecer la conexión.  
-
-   ![Solicitud de VPN](img/aceptar_vpn.jpg)  
+- Pulsa **Aceptar** para establecer la conexión.
+- 
+   <img src="img/aceptar_vpn.jpg" width="500">
 
 ### 8️⃣ Verifica la conexión  
-- Si ves el **icono de VPN** en la barra de estado, tu teléfono ya está conectado a Internet a través de la PC.  
+- Si ves el **icono de VPN o de llave** en la barra de estado, tu teléfono ya está conectado a Internet a través de la PC.  
 
-   ![VPN activada](img/vpn.jpg)  
+   <img src="img/vpn.jpg" width="500">
 
 ✅ **¡Listo! Tu teléfono ya tiene acceso a Internet desde tu PC.** 🚀  
