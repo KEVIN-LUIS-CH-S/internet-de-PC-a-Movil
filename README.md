@@ -1,60 +1,63 @@
+# 🌐 Internet de PC a Móvil  
+### Basado en: [Genymobile/gnirehtet](https://github.com/Genymobile/gnirehtet)  
+[<img src="https://github.com/omkar-tenkale/Reverse-tethering-setup-Windows/blob/master/download_btn.png">](https://github.com/omkar-tenkale/Reverse-tethering-setup-Windows/archive/master.zip)  
 
-# Reverse-tethering-setup-Windows
-### Based on: https://github.com/Genymobile/gnirehtet
-[<img src="https://github.com/omkar-tenkale/Reverse-tethering-setup-Windows/blob/master/download_btn.png">](https://github.com/omkar-tenkale/Reverse-tethering-setup-Windows/archive/master.zip)
+## 📌 ¿Para qué sirve?  
+Este método es útil en las siguientes situaciones:  
+1️⃣ Tu teléfono necesita conexión a Internet.  
+2️⃣ Tu PC tiene Internet, pero no cuenta con Wi-Fi o hotspot.  
+3️⃣ Tienes un cable USB para conectar el teléfono a la PC.  
+4️⃣ Quieres compartir la conexión a Internet de tu PC con el teléfono.  
 
+Sigue estos pasos para configurar la conexión:  
 
-One click windows to android internet connection (Opposite of Android USB Tethering)
+## 🛠️ **Cómo usarlo**  
+📥 [Descarga el archivo ZIP (~9MB)](https://github.com/omkar-tenkale/Reverse-tethering-setup-Windows/archive/master.zip)  
 
-What it does:
-It helps in a situation where 
-1. Phone needs internet connection.
-2. PC has internet connection but doesn't have wifi/hotspot capability.
-3. You have a USB cable to connect phone to pc.
-4. You want to use pc's internet in your phone.
+### 1️⃣ Extrae y ejecuta el programa  
+- Descomprime el archivo ZIP.  
+- Haz doble clic en **START_ME_gnirehtet-autorun.cmd**.  
 
-You can simply follow the steps below to get a working internet connection on your phone. 
+   ![Ventana de inicio](help/onstart.png)  
 
-**How to use:**
-[Download this repo zip ~9MB](https://github.com/omkar-tenkale/Reverse-tethering-setup-Windows/archive/master.zip)
+### 2️⃣ Conecta tu teléfono a la PC  
+- Usa un cable USB.  
+- Selecciona el modo **Transferencia de archivos** (no "Solo carga").  
 
-Extract the zip file and double click 
-**START_ME_gnirehtet-autorun.cmd**
+   ![Modo de transferencia](img/transferencia_de_archivos.jpg)  
 
-![This window will appear](help/onstart.png)
+### 3️⃣ Habilita la **Depuración USB** en tu dispositivo  
+- Si no sabes cómo activarla, busca en Internet:  
+  _"Cómo habilitar la depuración USB en [marca del dispositivo]"_ (ej. Xiaomi, Samsung, etc.).  
+- Cuando aparezca un mensaje de advertencia, pulsa **ACEPTAR**.  
 
-Now connect your android device to your windows pc
-Select mode file transfer (not "charge only")
-![This window will appear](help/charge_only_to_transfer_files.jpg)
+   ![Depuración USB](img/depuracion_usb.jpg)  
 
-Enable USB debugging
- (search on internet "**How to enable usb debugging in yourdevicehere**<xiaomi/samsung..>  ")
- ![This window will appear](help/enable_usb_debugging_developer_options.png)
+### 4️⃣ Activa la opción **Instalar vía USB**  
+- En algunos dispositivos, será necesario iniciar sesión para activarla.  
+- Se requiere una conexión a Internet para completar este paso.  
 
- A prompt will appear on your phone
- 
-![This window will appear](help/usb_debugging_prompt.png)
- 
-Click OK
+   ![Instalar vía USB](img/instalar_via_usb.jpg)  
 
+### 5️⃣ Concede permisos para la **Depuración USB (ajustes de seguridad)**  
+- En dispositivos recientes, es necesario autorizar la instalación vía USB.  
 
- App will be automatically installed on phone![This window will appear](help/client_app_install_and_start_app_with_broadcast.png
-)
+   ![Concesión de permisos](img/permitir_la_consecion_de_permisos.jpg)  
 
-A vpn request dialog will appear
+### 6️⃣ Instalación automática de la app  
+- Acepta la instalación en tu teléfono cuando se te solicite.  
 
- ![VPN connection request](help/vpn_request.jpg)
+   ![Instalación automática](img/instalar.jpg)  
 
-Accept it and vpn connection will start which will provide internet connection.
+### 7️⃣ Acepta la solicitud de conexión VPN  
+- Aparecerá un cuadro de diálogo en tu teléfono.  
+- Pulsa **Aceptar** para establecer la conexión.  
 
- ![VPN connection started](help/vpn_started_internet_connected_indication.png)
- 
- **That's it. If you see this key icon in status bar means you are connected to pc and thus internet** 
+   ![Solicitud de VPN](img/aceptar_vpn.jpg)  
 
+### 8️⃣ Verifica la conexión  
+- Si ves el **icono de VPN** en la barra de estado, tu teléfono ya está conectado a Internet a través de la PC.  
 
+   ![VPN activada](img/vpn.jpg)  
 
-Disconnect usb after use.
-![This window will appear](help/connection_starts_successfully_and_device_disconnect_after_use.png)
-
-If this window is kept open and device connected again, the process will start automatically.No manual work needed.
-Just launch once and keep minimized.
+✅ **¡Listo! Tu teléfono ya tiene acceso a Internet desde tu PC.** 🚀  
